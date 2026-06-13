@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-image: url(https://www.chennaitop10.com/wp-content/uploads/2023/12/Top-10-Gyms.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.welcome-tense {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 12px;
+    background: rgba(255, 255, 255, 0.804);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.welcom-1 {
+    font-size: 1.8rem;
+    color: rgb(255, 0, 0);
+}
+
+.welcom-2 {
+    font-size: 1.8rem;
+    color: black;
+}
+
+.main-container {
+    display: flex;
+}
+
+.main-container-para {
+    padding: 40px;
+    max-width: 650px;
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 50px;
+    background: rgba(255, 255, 255, 0.804);
+    border-radius: 10px;
+}
+
+.main-container-para p {
+    line-height: 30px;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.main-container-btn {
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.main-container-btn button {
+    margin-right: 60px;
+    padding: 20px 30px;
+    border-radius: 200px;
+    width: 150px;
+    font-weight: bolder;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(255, 255, 0);
+    cursor: pointer;
+}
+
+.main-container-btn button:hover {
+    background-color: rgba(255, 255, 255, 0.804);
+}

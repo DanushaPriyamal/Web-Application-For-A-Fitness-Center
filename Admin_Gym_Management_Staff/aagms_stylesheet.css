@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* CSS for header */
+
+.site-head {
+    display: flex;
+    align-items: center;
+    background-color: rgb(158, 151, 151);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.center-name {
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.205);
+    padding: 5px 10px;
+    color: rgb(250, 255, 0);
+}
+
+.lgBtn {
+    margin-left: 970px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: yellow
+}
+
+.lgBtn:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* CSS for membership sign-ups */
+
+.membership-display {
+    background-color: #413f3f;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.membership-display h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: antiquewhite;
+}
+
+.membership-display table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+
+}
+
+.membership-display th,
+.membership-display td {
+    border: 1px solid #565858;
+    padding: 10px;
+    text-align: left;
+}
+
+.membership-display th {
+    background-color: #c7c5c5;
+
+}
+
+.membership-display td {
+    color: white;
+}
+
+/* CSS for group class registrations */
+
+.group-class-regsitration-display {
+    background-color: rgb(37, 46, 20);
+    height: 100vh;
+    overflow: scroll;
+}
+
+.group-class-regsitration-display h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.8rem;
+    color: rgb(123, 253, 210);
+}
+
+.group-class-regsitration-display table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+
+}
+
+.group-class-regsitration-display th,
+.group-class-regsitration-display td {
+    border: 1px solid #565858;
+    padding: 10px;
+    text-align: left;
+}
+
+.group-class-regsitration-display th {
+    background-color: rgb(212, 188, 235);
+
+}
+
+.group-class-regsitration-display td {
+    color: white;
+}
+
+/* CSS for queries table */
+
+.reply-queries {
+    background-color: #413f3f;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.reply-queries h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.8rem;
+    color: antiquewhite;
+}
+
+.reply-queries table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+
+}
+
+.reply-queries th,
+.reply-queries td {
+    border: 1px solid #565858;
+    padding: 10px;
+    text-align: left;
+}
+
+.reply-queries th {
+    background-color: #c7c5c5;
+
+}
+
+.reply-queries td {
+    color: white;
+}
+
+/* CSS for reply queries */
+
+.reply {
+    background-color: rgb(37, 46, 20);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.reply h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.8rem;
+    color: rgb(123, 253, 210);
+}
+
+.reply form {
+    margin-top: 50px;
+    margin-left: 400px;
+    display: block;
+}
+
+.reply form label {
+    display: block;
+    margin-top: 20px;
+    color: white;
+    font-size: large;
+}
+
+.reply form input,
+.reply form textarea {
+    margin-top: 10px;
+    width: 600px;
+}
+
+.reply form input {
+    padding: 10px;
+}
+
+.reply form textarea {
+    padding: 20px;
+    height: 200px;
+}
+
+.reply form button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(121, 108, 231);
+    color: rgb(21, 2, 65);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reply form button:hover {
+    background-color: rgb(21, 2, 65);
+    color: rgb(121, 108, 231);
+
+}
+
+/* CSS for footer */
+
+.site-footer {
+    background-color: #222;
+    color: #eee;
+    padding: 20px;
+    text-align: center;
+}

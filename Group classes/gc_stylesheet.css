@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-image: url("https://static.wixstatic.com/media/c9e67f_b36f2d652a36441d89872b5cbbd543ca~mv2.jpg/v1/fill/w_957,h_638,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c9e67f_b36f2d652a36441d89872b5cbbd543ca~mv2.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 30px;
+    color: white;
+
+}
+
+.group-class-container {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.group-class-sub {
+    background-color: rgba(255, 255, 255, 0.705);
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 370px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.group-class-sub img {
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 39px;
+}
+
+.group-class-sub h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.group-class-sub p {
+    margin-top: 20px;
+    line-height: 15px;
+}
+
+.group-class-sub h3 {
+    margin-top: 30px;
+    font-weight: bold;
+    line-height: 5px;
+}
+
+.btnRegister {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 610px;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(255, 255, 0);
+    cursor: pointer;
+}
+
+.btnRegister:hover {
+    background-color: rgb(255, 255, 255);
+}

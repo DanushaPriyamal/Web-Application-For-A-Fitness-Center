@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone Fitness Center | Sign up</title>
+
+    <link rel="stylesheet" href="su_stylesheet.css">
+</head>
+
+<body>
+    <div class="signup-container">
+        <h2>Create User Account</h2>
+
+        <form action="signUpDatabase.php" method="POST" id="signup-form">
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mobileNumber">Mobile Number</label>
+            <div class="mobile-input">
+                <span class="country-code">+94</span>
+                <input type="tel" id="mobileNumber" maxlength="9" name="mobileNumber" required>
+            </div>
+
+            <label for="dateOfBirth">Date of Birth</label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+
+            <label for="placeOfResidence">Place of Residence</label>
+            <select id="placeOfResidence" name="placeOfResidence" required>
+                <option value="">Select</option>
+                <option value="jaffna">Jaffna District</option>
+                <option value="kilinochchi">Kilinochchi District</option>
+                <option value="mannar">Mannar District</option>
+                <option value="mullaitivu">Mullaitivu District</option>
+                <option value="vavuniya">Vauniya District</option>
+                <option value="puttalam">Puttalam District</option>
+                <option value="kurunegala">Kurunegala District</option>
+                <option value="gampaha">Gampaha District</option>
+                <option value="colombo">Colombo District</option>
+                <option value="kalutara">Kalutara District</option>
+                <option value="anuradhapura">Anuradhapura District</option>
+                <option value="polonnaruwa">Polonnaruwa District</option>
+                <option value="matale">Matale District</option>
+                <option value="kandy">Kandy District</option>
+                <option value="nuwaraEliya">Nuwara Eliya District</option>
+                <option value="kegalle">Kegalle District</option>
+                <option value="ratnapura">Ratnapura District</option>
+                <option value="trincomalee">Trincomalee District</option>
+                <option value="batticaloa">Batticaloa District</option>
+                <option value="ampara">Ampara District</option>
+                <option value="budulla">Badulla District</option>
+                <option value="monaragala">Monaragala District</option>
+                <option value="hambantota">Hambantota District</option>
+                <option value="matara">Matara District</option>
+                <option value="galle">Galle District</option>
+            </select>
+
+            <label for="address">Address</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <a href="../Sign in/signIn.html">
+                <button type="submit">Create Account</button>
+            </a>
+
+
+
+        </form>
+    </div>
+
+    <script src="signUpBehavior.js"></script>
+
+</body>
+
+</html>

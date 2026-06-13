@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone Fitness Center | Customer Page</title>
+
+    <link rel="stylesheet" href="cp_stylesheet.css">
+</head>
+
+<body>
+    <header class="site-head">
+        <div class="center-name">Fitzone Fitness Center</div>
+
+        <nav class="header-navigation">
+            <ul>
+                <li><a href="../Personalized trainning sessions/personalizedTrainningSessions.html">Personalized
+                        trainning
+                        sessions</a></li>
+
+                <li><a href="../Group classes/groupClasses.html">Group Classes</a></li>
+
+                <li><a href="../User display query replies/userDisplayQueriesReplies.html">Query Replies</a></li>
+
+                <li><a href="../Sign in Admin and GMS/signInAdminAndGMS.html">Admin and GMS</a></li>
+            </ul>
+        </nav>
+
+        <div class="searchAndButton">
+            <form id="searchForm">
+                <input type="text" id="search" name="search" placeholder="Search....">
+            </form>
+
+            <a href="../Sign in/signIn.html">
+                <button class="lgBtn">Sign Out</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="membership-header">
+        <div class="membership-header-para">
+            <h1>Unlock unlimited benefits with your membership sign-up</h1>
+
+            <p>After signing up for a membership, enjoy a wide range of features and benefits to elevate your fitness
+                journey
+            </p>
+
+            <a href="../Membership sign-up/membershipSignUp.html">
+                <button>Membership Sign-Up</button>
+            </a>
+
+        </div>
+    </section>
+
+    <section class="queries-header" id="queries-header">
+
+        <div class="queries-header-container">
+
+            <h1>Enter your queries for further more details....</h1>
+
+            <form id="queriesForm" action="customerPageDatabase.php" method="POST">
+                <label for="name">Full Name</label>
+                <input id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" required>
+
+                <label for="queries">Queries</label>
+                <textarea id="queries" name="queries" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="blog-post-section" id="blog-post-section">
+        <div class="blog-post-section-topic">
+            <h1>Blog Posts</h1>
+        </div>
+
+        <div class="blog-post-main">
+            <div class="blog-post">
+                <h1>💪 How to Build a Workout Routine That Works</h1>
+                <p>Quick tips to help you stay consistent and reach your fitness goals.</p>
+
+                <h2>🎯 1. Set Your Goals</h2>
+                <p>Decide what you’re aiming for:</p>
+                <ul>
+                    <li>Muscle gain</li>
+                    <li>Fat loss</li>
+                    <li>Cardio endurance</li>
+                    <li>Flexibility or mobility</li>
+                </ul>
+                <p>Your goals shape your routine.</p>
+
+                <h2>🗓️ 2. Weekly Workout Split</h2>
+                <table>
+                    <tr>
+                        <th>Day</th>
+                        <th>Focus</th>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Upper Body Strength</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Cardio & Core</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Lower Body Strength</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Active Recovery</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Full Body Circuit</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Cardio Endurance</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>Rest</td>
+                    </tr>
+                </table>
+
+                <h2>🔁 3. Balance Your Training</h2>
+                <ul>
+                    <li><strong>Strength:</strong> 3–4 sessions/week with compound lifts</li>
+                    <li><strong>Cardio:</strong> Mix HIIT and steady-state</li>
+                    <li><strong>Flexibility:</strong> Stretch, foam roll, or do yoga weekly</li>
+                </ul>
+
+                <h2>📈 4. Progress Over Time</h2>
+                <p>Increase weights, reps, or intensity gradually to keep improving.</p>
+
+                <h2>🥗 5. Support with Nutrition & Recovery</h2>
+                <ul>
+                    <li>Eat balanced meals</li>
+                    <li>Stay hydrated</li>
+                    <li>Get 7–9 hours of sleep</li>
+                </ul>
+
+            </div>
+
+            <div class="blog-post">
+                <h1>🥗 Healthy Recipes to Fuel Your Fitness Goals</h1>
+                <p>Eating clean doesn’t mean boring meals. These simple, nutrient-packed recipes are perfect for anyone
+                    looking to support their workouts with smart nutrition.</p>
+
+                <h2>🍳 1. Protein-Packed Breakfast: Veggie Omelette</h2>
+                <div class="recipe">
+                    <p><strong>Ingredients:</strong></p>
+                    <ul>
+                        <li>3 egg whites + 1 whole egg</li>
+                        <li>Spinach, tomatoes, onions (chopped)</li>
+                        <li>Salt, pepper, olive oil</li>
+                    </ul>
+                    <p><strong>Instructions:</strong> Sauté veggies in olive oil, add eggs, cook until firm. Serve with
+                        whole grain toast.</p>
+                </div>
+
+                <h2>🥗 2. Light Lunch: Grilled Chicken Salad</h2>
+                <div class="recipe">
+                    <p><strong>Ingredients:</strong></p>
+                    <ul>
+                        <li>Grilled chicken breast (sliced)</li>
+                        <li>Mixed greens, cherry tomatoes, cucumber</li>
+                        <li>Olive oil + lemon juice dressing</li>
+                    </ul>
+                    <p><strong>Instructions:</strong> Toss all ingredients together. Add dressing and enjoy fresh.</p>
+                </div>
+
+                <h2>🍠 3. Post-Workout Snack: Sweet Potato & Greek Yogurt</h2>
+                <div class="recipe">
+                    <p><strong>Ingredients:</strong></p>
+                    <ul>
+                        <li>1 medium baked sweet potato</li>
+                        <li>½ cup plain Greek yogurt</li>
+                        <li>Cinnamon and honey (optional)</li>
+                    </ul>
+                    <p><strong>Instructions:</strong> Slice sweet potato, top with yogurt, sprinkle cinnamon and drizzle
+                        honey if desired.</p>
+                </div>
+
+                <h2>🍲 4. Dinner Idea: Quinoa Stir-Fry</h2>
+                <div class="recipe">
+                    <p><strong>Ingredients:</strong></p>
+                    <ul>
+                        <li>1 cup cooked quinoa</li>
+                        <li>Broccoli, bell peppers, carrots</li>
+                        <li>Low-sodium soy sauce, garlic, olive oil</li>
+                    </ul>
+                    <p><strong>Instructions:</strong> Stir-fry veggies in olive oil and garlic, add quinoa and soy
+                        sauce.
+                        Cook for 5 minutes and serve hot.</p>
+                </div>
+
+                <h2>🥤 5. Hydration Boost: Green Smoothie</h2>
+                <div class="recipe">
+                    <p><strong>Ingredients:</strong></p>
+                    <ul>
+                        <li>1 banana</li>
+                        <li>1 cup spinach</li>
+                        <li>½ cup Greek yogurt</li>
+                        <li>1 cup almond milk</li>
+                    </ul>
+                    <p><strong>Instructions:</strong> Blend all ingredients until smooth. Great for mornings or
+                        post-workout
+                        refreshment.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 FitZone. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="../Membership sign-up/membershipSignUp.html">Membership Sign-Up</a></li>
+                <li><a href="../Personalized trainning sessions/personalizedTrainningSessions.html">Personalized
+                        Trainning Sessions</a></li>
+                <li><a href="../Group classes/groupClasses.html">Group Classes</a></li>
+                <li><a href="../User display query replies/userDisplayQueriesReplies.html">Query Replies</a></li>
+                <li><a href="../Sign in Admin and GMS/signInAdminAndGMS.html">Admin and GMS</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="../Customer page/customerPageBehavior.js"></script>
+
+</body>
+
+</html>

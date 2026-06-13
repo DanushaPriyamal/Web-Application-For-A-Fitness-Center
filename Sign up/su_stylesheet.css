@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: url(https://wallpaperaccess.com/full/5469421.jpg);
+}
+
+.signup-container {
+    background: rgba(255, 255, 255, 0.804);
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+form label {
+    display: block;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+}
+
+.mobile-input {
+    display: flex;
+}
+
+.country-code {
+    background: #eee;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-right: none;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.mobile-input input {
+    border-left: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 24px;
+    padding: 12px;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(12, 0, 21);
+}

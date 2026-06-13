@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-image: url("https://wallpaperbat.com/img/922798-just-3-seconds-of-intense-exercise-makes-a-muscle-stronger-by-robert-roy-britt.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.trainers-information-container {
+    display: flex;
+    justify-content: center;
+}
+
+.trainers-information {
+    background-color: rgba(255, 255, 255, 0.705);
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 400px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.trainers-information img {
+    width: 250px;
+    height: 200px;
+    margin-left: 48px;
+    margin-top: 30px;
+}
+
+.trainers-information h2 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.trainers-information p {
+    margin-top: 20px;
+    line-height: 15px;
+}
+
+.trainers-information h3 {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.trainning-session-booking {
+    background-color: rgba(255, 255, 255, 0.705);
+    max-width: 450px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    line-height: 30px;
+}

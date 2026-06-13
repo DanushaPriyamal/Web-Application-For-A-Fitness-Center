@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    width: fit-content;
+}
+
+/* Membership sign-up section css */
+
+.membership-header {
+    display: flex;
+    background: url(https://t3.ftcdn.net/jpg/01/45/06/84/360_F_145068450_8wuI5A3YGjEyj6dmaBYCu6GQIxl00wlz.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.membership-header-para {
+    margin-top: 35vh;
+    margin-left: 20px;
+    color: white;
+}
+
+.membership-header-para h1 {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.membership-header-para p {
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.membership-header-para button {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgb(255, 255, 0);
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.membership-header-para button:hover {
+    background: rgba(255, 255, 255, 0.804);
+}
+
+/* Header section css */
+
+.site-head {
+    display: flex;
+    align-items: center;
+    background-color: rgb(158, 151, 151);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.center-name {
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.205);
+    padding: 5px 10px;
+    color: rgb(250, 255, 0);
+}
+
+.header-navigation {
+    margin-left: 20px;
+}
+
+.header-navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header-navigation a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.header-navigation a:hover {
+    color: rgb(37, 37, 167);
+}
+
+.searchAndButton {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.searchAndButton input {
+    padding: 15px;
+    width: 305px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.lgBtn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: yellow
+}
+
+.lgBtn:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Submit queries section css */
+
+.queries-header {
+    display: block;
+    background: url("https://www.bannerhealth.com/healthcareblog/-/media/images/project/healthcareblog/hero-images/2020/03/sanitizing-workout-equipment.ashx");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 115vh;
+    overflow: hidden;
+}
+
+.queries-header-container h1 {
+    margin-left: 40px;
+    font-size: 2.3rem;
+    margin-top: 120px;
+    background-color: rgba(255, 255, 255, 0.804);
+    width: 800px;
+    padding: 10px;
+}
+
+.queries-header-container form label,
+.queries-header-container form button {
+    display: block;
+}
+
+.queries-header-container form label {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.queries-header-container form {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.queries-header-container form input,
+.queries-header-container form textarea {
+    width: 500px;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.596);
+}
+
+.queries-header-container form button {
+    margin-top: 30px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 0);
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.queries-header-container form button:hover {
+    background-color: rgba(255, 255, 255, 0.804);
+}
+
+/* Blog posts */
+
+.blog-post-section {
+    display: block;
+    overflow: scroll;
+    height: 120vh;
+    background-image: url(https://img.freepik.com/premium-photo/gym-dark-colors-with-various-exercise-equipment_1068310-71.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.blog-post-section-topic {
+    margin-top: 50px;
+}
+
+.blog-post-section-topic h1 {
+    color: red;
+    background-color: rgba(255, 255, 255, 0.788);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.blog-post-main {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-post {
+    background-color: rgba(255, 255, 255, 0.788);
+    max-width: 500px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 200vh;
+    border-radius: 10px;
+}
+
+.blog-post h1,
+.blog-post h2 {
+    color: #2c3e50;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-post table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.blog-post th,
+.blog-post td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.blog-post ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* footer */
+
+.site-footer {
+    background-color: #222;
+    color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}

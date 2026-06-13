@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone Fitness Center | Admin And Gym Management Staff</title>
+
+    <link rel="stylesheet" href="aagms_stylesheet.css">
+</head>
+
+<body>
+    <header class="site-head">
+        <div class="center-name">Fitzone Fitness Center</div>
+
+        <a href="../Sign in/signIn.html">
+            <button class="lgBtn">Sign Out</button>
+        </a>
+    </header>
+
+    <section class="membership-display">
+        <h1>Membership Sign Ups</h1>
+
+        <table id="membershipSignUpTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Membership Option</th>
+                    <th>Payment Month</th>
+                    <th>Payment Year</th>
+                    <th>Bank Slip</th>
+                </tr>
+            </thead>
+
+            <tbody></tbody>
+        </table>
+    </section>
+
+    <section class="group-class-regsitration-display">
+        <h1>Group Class Registrations</h1>
+
+        <table id="groupClassesRegistrationTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Class Category</th>
+                    <th>Payment Month</th>
+                    <th>Payment Year</th>
+                    <th>Bank Slip</th>
+                </tr>
+            </thead>
+
+            <tbody></tbody>
+        </table>
+    </section>
+
+    <section class="reply-queries">
+        <h1>Queries Table</h1>
+
+        <table id="replyQueriesTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Queries</th>
+                    <th>Replies</th>
+                </tr>
+            </thead>
+
+            <tbody></tbody>
+        </table>
+    </section>
+
+    <section class="reply">
+        <h1>Reply For Queries</h1>
+
+        <form id="replyForm" action="queriesReplyDatabase.php" method="POST" enctype="multipart/form-data">
+            <label for="queryID">Enter Query ID</label>
+            <input type="text" name="queryID" id="queryID" required>
+
+            <label for="reply">Enter Reply</label>
+            <textarea id="reply" name="reply" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 FitZone. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="adminAndGymManagementStaffBehavior.js"></script>
+
+</body>
+
+</html>

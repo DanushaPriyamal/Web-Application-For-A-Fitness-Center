@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://img.freepik.com/premium-photo/black-dumbbells-floor-dark-concept-fitness-room-with-training-equipment-background_861171-6117.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    font-family: "Segoe UI", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.membership-sign-up-container {
+    background: rgba(255, 255, 255, 0.804);
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+p {
+    color: red;
+    text-align: justify;
+}
+
+form label {
+    display: block;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 24px;
+    padding: 12px;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(12, 0, 21);
+}

@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp9397099.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.m-sign-up h1 {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.sign-up-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.sign-up-options-sub {
+    background-color: rgba(255, 255, 255, 0.705);
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+    max-width: 450px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+.sign-up-options-sub h2 {
+    text-align: center;
+}
+
+.sign-up-options-paragraph {
+    margin-top: 15px;
+}
+
+.sign-up-options-paragraph p {
+    line-height: 35px
+}
+
+.sign-up-options-sub h3 {
+    margin-top: 15px;
+}
+
+.sign-up-button {
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 610px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(255, 255, 0);
+    cursor: pointer;
+}
+
+.sign-up-button:hover {
+    background-color: rgb(255, 255, 255);
+}

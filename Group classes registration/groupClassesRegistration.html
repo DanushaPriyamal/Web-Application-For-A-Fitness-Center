@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone Fitness Center | Group Classes Registration</title>
+
+    <link rel="stylesheet" href="gcr_stylesheet.css">
+</head>
+
+<body>
+    <div class="classes-registration-container">
+        <h2>Group Classes Registration Form</h2>
+
+        <form id="classes-registration-form" action="groupClassesRegistrationDatabase.php" method="POST"
+            enctype="multipart/form-data">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="class-catogery">Class Category</label>
+            <select id="class-catogery" name="class-catogery" required>
+                <option value="">Select</option>
+                <option value="cardio-class">Cardio Class</option>
+                <option value="strength-trainning-class">Strength Trainning Class</option>
+                <option value="yoga-class">Yoga Class</option>
+            </select>
+
+            <label for="payment-month">Payment Month</label>
+            <select id="payment-month" name="payment-month" required>
+                <option value="">Select</option>
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="octomber">Octomber</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+            </select>
+
+            <label for="payment-year">Payment Year</label>
+            <select id="payment-year" name="payment-year" required>
+                <option value="">Select</option>
+                <option value="2025">2025</option>
+            </select>
+
+            <label for="upload-bank-slip">Upload Bank Slip</label>
+            <input type="file" id="upload-bank-slip" name="upload-bank-slip" accept="image/*" required>
+            <P>Note: Your payments must do for the account at BOC Matara branch under account number "123456789", name
+                "Fitzone
+                Fitness Center" and
+                address "FitZone Fitness Center, Gbadavidiya, Matara."</P>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="../Group classes registration/groupClassesRegistrationBehavior.js"></script>
+
+</body>
+
+</html>
