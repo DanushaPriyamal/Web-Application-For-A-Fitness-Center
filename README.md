@@ -38,5 +38,9 @@
 
 ## 📊 System Analysis and Design Diagrams
 
+- **Site Map**
+<img width="1066" height="885" alt="Site map drawio" src="https://github.com/user-attachments/assets/f431f138-44e7-4e42-a30f-e0f2b2cb802b" />
+
+
 
 
