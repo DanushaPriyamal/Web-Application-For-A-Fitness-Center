@@ -44,12 +44,12 @@
 ## 📷 Image Previews
 
 - **Front Page**
-<img width="1366" height="643" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/9273d1e3-8315-4c89-8aac-14860064c17f" />
+<img width="1351" height="638" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/8a115bd3-236e-42fc-9a61-d11b78639f48" />
 
 <br><br>
 
 - **Sign In Page**
-<img width="1366" height="640" alt="Screenshot (184)" src="https://github.com/user-attachments/assets/77f9f08b-f0c9-45d8-a677-4e250554f024" />
+<img width="1354" height="638" alt="Screenshot (184)" src="https://github.com/user-attachments/assets/bb542641-e679-434f-957b-2967566882e8" />
 
 <br><br>
 
@@ -59,12 +59,12 @@
 <br><br>
 
 - **Home Page 1**
-<img width="1341" height="643" alt="Screenshot (194)" src="https://github.com/user-attachments/assets/ae26e20c-5986-4a16-a2a4-f08133325d8c" />
+<img width="1326" height="638" alt="Screenshot (194)" src="https://github.com/user-attachments/assets/a2323615-aa74-492d-bf54-1ffaa251df10" />
 
 <br><br>
 
 - **Home Page 2**
-<img width="1336" height="643" alt="Screenshot (195)" src="https://github.com/user-attachments/assets/6fbb7c29-50f0-438c-a683-416823ddac83" />
+<img width="1332" height="641" alt="Screenshot (195)" src="https://github.com/user-attachments/assets/ef6bf652-3590-4ae7-98b1-f472de6f2af4" />
 
 <br><br>
 
@@ -74,7 +74,7 @@
 <br><br>
 
 - **Home Page 4**
-<img width="1321" height="638" alt="Screenshot (197)" src="https://github.com/user-attachments/assets/1230d48a-5b9d-410e-8453-293ef2ca4363" />
+<img width="1316" height="638" alt="Screenshot (197)" src="https://github.com/user-attachments/assets/c1e71e58-95dd-4e05-afce-67d33505e146" />
 
 <br><br>
 
@@ -94,12 +94,12 @@
 <br><br>
 
 - **Query Replies Table Page**
-<img width="1346" height="640" alt="Screenshot (215)" src="https://github.com/user-attachments/assets/83bdcb9a-2f47-4422-acd5-eac9d9e2ee75" />
+<img width="1346" height="768" alt="New Screenshot" src="https://github.com/user-attachments/assets/e4c3f909-ff25-458c-badf-be05b9987783" />
 
 <br><br>
 
 - **Membership Sign Up Page**
-<img width="1341" height="638" alt="Screenshot (219)" src="https://github.com/user-attachments/assets/ad7ca5dd-c651-494e-88fa-40ae0517b60b" />
+<img width="1334" height="638" alt="Screenshot (219)" src="https://github.com/user-attachments/assets/79a5daa2-ce61-4e1f-b8bf-b37ea9a3f857" />
 
 <br><br>
 
@@ -108,14 +108,28 @@
 
 <br><br>
 
-- **Gym Management Staff Sign In**
-<img width="1366" height="636" alt="Screenshot (227)" src="https://github.com/user-attachments/assets/ad44001e-c084-476d-87a8-3e5bb335f03f" />
+- **Gym Management Staff Sign In Page**
+<img width="1356" height="636" alt="Screenshot (227)" src="https://github.com/user-attachments/assets/212f35f4-c7dc-4ac1-a532-91a0402b5739" />
 
+<br><br>
 
+- **Gym Management Staff Dashboard Membership Sign Ups Checking**
+<img width="1352" height="768" alt="Screenshot (617)" src="https://github.com/user-attachments/assets/cf17cb79-5b48-4992-a0d9-3628e5473272" />
 
+<br><br>
 
+- **Gym Management Staff Dashboard Group Class Registrations Checking**
+<img width="1350" height="748" alt="Screenshot (618)" src="https://github.com/user-attachments/assets/ea8368d0-96ef-447b-8afd-837b212e8cee" />
 
+<br><br>
 
+- **Gym Management Staff Dashboard Queries Checking**
+<img width="1347" height="736" alt="Screenshot (619)" src="https://github.com/user-attachments/assets/805f4d27-c3d3-4a23-a74b-01818750fa9a" />
+
+<br><br>
+
+- **Gym Management Staff Dashboard Reply For Queries**
+<img width="1341" height="599" alt="Screenshot (234)" src="https://github.com/user-attachments/assets/a60d9a86-5dee-428a-bf62-60bece930637" />
 
 
 
